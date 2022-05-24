@@ -1,0 +1,202 @@
+body{
+	background-image: url(../bulan/bintang.png);
+	height: 100px auto;
+}
+#tiang{
+	margin:250px auto;
+	width: 30px;
+	height: 400px;
+	background-color: #ddd;
+	border-radius: 50%;
+	animation: tiang 30s linear infinite;
+	z-index: 2;
+}
+#baling{
+	margin-top: -10px;
+	margin-left: -125px;
+	position: absolute;
+	width: 280px;
+	height: 20px;
+	background:radial-gradient(black 1%,yellow,yellow,blue,aqua ,black);
+	border-radius: 50%;
+	animation: baling 2s linear infinite;
+}
+#baling1{
+	float: left;
+	margin-top: -40px;
+	width: 10px;
+	height: 100px;
+	background:linear-gradient(red,white,orange,white,red);
+	animation: baling1 .3s linear infinite;
+}
+#baling2{
+	float: right;
+	margin-top: -40px;
+	width: 10px;
+	height: 100px;
+	background:linear-gradient(red,white,orange,white,red);
+	animation: baling1 .3s linear infinite;
+}
+#baling3{
+	margin-top: -140px;
+	margin-left: 5px;
+	position: absolute;
+	height: 280px;
+	width: 20px;
+	background:radial-gradient(black 1%,yellow,yellow,blue,aqua ,black);
+	border-radius: 50%;
+	animation: baling 2s linear infinite;
+}
+#baling4{
+	margin:auto;
+	margin-top: -50px;
+	width: 10px;
+	height: 100px;
+	background:linear-gradient(red,white,orange,white,red);
+	animation: baling2 .3s linear infinite;
+}
+#baling5{
+	margin:180px auto;
+	width: 10px;
+	height: 100px;
+	background:linear-gradient(red,white,orange,white,red);
+	animation: baling2 .3s linear infinite;
+}
+.bawah{
+	position: absolute;
+	margin:350px auto ;
+	margin-left: -80px;
+	width: 200px;
+	height: 50px;
+	background-color: #ccc;
+	animation: tiang 30s linear infinite;
+	z-index: 2;
+}
+#matahari{
+	width: 100px;
+	height: 100px;
+	background:rgba(225, 0, 225 .00);
+	border-radius: 50%;
+	box-shadow: inset -20px -10px 10px 10px yellow, 10px 10px 50px #ddd;
+	animation: gerak 30s linear infinite;
+}
+
+
+
+@keyframes tiang{
+	0%{
+		box-shadow: -15px 10px 20px gray;
+	}
+	30%{
+		box-shadow: -10px 10px 5px #222;
+	}
+	40%{
+		box-shadow: 10px 10px 5px #222;
+	}
+	100%{
+		box-shadow: 15px 10px 20px gray;
+	}
+}
+
+@keyframes gerak{
+	
+
+	100%{
+		z-index: 0;
+		position: absolute;
+		margin-top: -700px;
+		margin-left: -600px;
+		transform: rotate(210deg);
+	}
+	40%{
+		z-index: 0;
+		position: absolute;
+		margin-top: -900px;
+	}
+	30%{
+		z-index: 0;
+		position: absolute;
+		margin-top: -900px;
+		transform: rotate(-210deg);
+	}
+	
+	0%{
+		z-index: 0;
+		position: absolute;
+		margin-top: -700px;
+	margin-left: 1350px;
+	margin-bottom: 1px;
+		background: rgba(123, 1231,21 .0);
+	}
+	
+	
+}
+
+@keyframes baling{
+	0%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes baling0{
+	0%{
+		transform: rotate(-360deg);
+	}
+}
+@keyframes baling1{
+	0%{
+		transform: rotate(-360deg);
+	}
+}
+@keyframes baling2{
+	0%{
+		transform: rotate(360deg);
+	}
+}
+
+
+
+
+@keyframes putar{
+	0%{
+	transform:rotate(360deg);
+	}
+
+}
+@keyframes putar1{
+	0%{
+	transform:rotate(-360deg);
+	}
+}
+@keyframes coba{
+	10%{
+		margin-top: -2px;
+	}
+	20%{
+		margin-top: -4px;
+	}
+	30%{
+		margin-top: -6px;
+	}
+	10%{
+		margin-top: -8px;
+	}
+	50%{
+		margin-top: -9px;
+	}
+	60%{
+		margin-top:  2px;
+	}
+	70%{
+		margin-top:  4px;
+	}
+	80%{
+		margin-top: 6px;
+	}
+	90%{
+		margin-top: 8px;
+	}
+	100%{
+		margin-top: 9px;
+	}
+	
+}

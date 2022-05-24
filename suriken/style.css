@@ -1,0 +1,130 @@
+body{
+	background-image: url(bintang.png);
+}
+.menu{
+	margin:400px auto;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: yellow;
+	animation: cobaa .1s linear infinite;
+}
+.a1{
+	float: left;
+	margin-left: 105px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #fff;
+	animation: coba 60s linear infinite;
+}
+.a2{
+	float: left;
+	margin-left: 105px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #eee;
+	animation: coba 60s linear infinite;
+}
+.a3{
+	float: left;
+	margin-left: 105px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #ddd;
+	animation: coba 60s linear infinite;
+}
+.a4{
+	float: left;
+	margin-left: 105px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #ccc;
+	animation: coba 60s linear infinite;
+}
+.a5{
+	float: left;
+	margin-left: 105px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #bbb;
+	animation: coba 60s linear infinite;
+}
+.b1{
+	float: right;
+	margin-right: 105px;
+	margin-top:-20px; 
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #fff;
+	animation: coba 60s linear infinite;
+}
+.b2{
+	float: right;
+	margin-right: 100px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #eee;
+	animation: coba 60s linear infinite;
+}
+.b3{
+	float: right;
+	margin-right: 100px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #ddd;
+	animation: coba 60s linear infinite;
+}
+.b4{
+	float: right;
+	margin-right: 100px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #ccc;
+	animation: coba 60s linear infinite;
+}
+.b5{
+	float: right;
+	margin-right: 100px;
+	border-radius: 50%;
+	width: 200px;
+	height: 20px;
+	background-color: #bbb;
+	animation: coba 60s linear infinite;
+}
+
+@keyframes coba{
+	0%{
+		transform: rotate(360deg);
+		background:linear-gradient(salmon 30%,black 60%,yellow 30%);
+	}
+	25%{
+	
+		background:linear-gradient(blue 30%,black 60%,yellow 30%);
+	}
+	50%{
+		
+		background:linear-gradient(red 30%,black 60%,yellow 30%);
+	}
+	75%{
+		
+		background:linear-gradient(lightblue 30%,black 60%,yellow 30%);
+	}
+	100%{
+		
+		background:linear-gradient(white 30%,black 60%,yellow 30%);
+	}
+}
+@keyframes cobaa{
+	0%{
+		transform: rotate(-360deg);
+	}
+}
